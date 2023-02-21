@@ -1,4 +1,4 @@
-require("dotenv").config({ path: __dirname + "/.env.development" });
+require("dotenv").config({ path: __dirname + "/.env" });
 require("@nomicfoundation/hardhat-toolbox");
 require("hardhat-awesome-cli");
 

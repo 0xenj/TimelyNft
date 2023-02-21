@@ -3,7 +3,7 @@ const { assert } = require("chai");
 const { ethers } = require("hardhat");
 const Helper = require("./shared/setup");
 
-describe("RightBullet", function () {
+describe("Timely", function () {
   before(async function () {
     [provider, owner, user1, user2, user3] =
       await Helper.setupProviderAndAccount();
